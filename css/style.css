@@ -1,20 +1,27 @@
 /* HEADER */
 .centered {
-    max-width: 700px;
+    max-width: 1000px;
     margin: auto;
 }
 
+
+body {
+    padding-top: 100px;
+}
+
+
 nav {
-    min-height: 35px;
+    min-height: 50px;
     width: 100%;
     position: fixed;
     background-color: #ff6900;
     top: 0;
     left: 0;
+    z-index: 4;
 }
 
 nav .nav-inner {
-    height: 100%;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -51,6 +58,80 @@ nav .nav-inner {
     height: 20px;
     filter: invert(1);
 }
+/* /HEADER*/
 
 
 
+
+
+
+/* MAIN */
+main #main-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+main .box {
+    height: 500px;
+    width: 30%;
+    position: relative;
+}
+
+main .box .photo {
+    height: 85%;
+    background-color: lightblue;
+}
+
+
+.description .small-title{
+    padding-top: 10px;
+    font-size: small;
+}
+
+.description .price {
+    color: red;
+}
+
+
+p .cutted-price {
+    text-decoration: line-through;
+    color: black;
+}
+
+
+.heart {
+    font-size: 2em;
+    text-align: center;
+    padding: 2px 10px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color: white;
+}
+
+.sale {
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #ff0000;
+    color: white;
+    padding: 2px 5px;
+}
+
+.sost {
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    display: inline-block;
+    background-color: #008000;
+    color: white;
+    padding: 2px 5px;
+}
+
+
+#main-container .box .photo img {
+    width: 100%;
+}
