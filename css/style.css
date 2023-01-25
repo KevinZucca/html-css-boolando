@@ -70,6 +70,7 @@ main #main-container {
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
+    margin-bottom: 40px;
 }
 
 main .box {
@@ -188,4 +189,35 @@ p .cutted-price {
 
 .box:nth-child(6):hover .sale {
     display: none;
+}
+
+/* /HOVER */
+
+
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+footer .links a {
+    color:white;
+    text-decoration: none;
+}
+
+.social img {
+    width: 140px;
+    position: relative;
+    left: -5px;
 }
