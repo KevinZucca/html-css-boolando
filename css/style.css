@@ -135,3 +135,21 @@ p .cutted-price {
 #main-container .box .photo img {
     width: 100%;
 }
+/* /MAIN */
+
+
+
+
+
+
+/* HOVER-SET */
+.switched-photo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.box:hover .original {
+    opacity: 0;
+}
