@@ -165,7 +165,7 @@ p .cutted-price {
     opacity: -1;
 }
 
-.box:hover .heart {
+.heart:hover {
     color: red;
 }
 
