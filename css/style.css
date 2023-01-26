@@ -153,13 +153,6 @@ p .cutted-price {
     z-index: -1;
 }
 
-.box .sale-b {
-    position: absolute;
-    bottom: 92px;
-    left: 0px;
-    z-index:-1;
-
-}
 
 .box:hover .original {
     opacity: -1;
@@ -168,30 +161,8 @@ p .cutted-price {
 .heart:hover {
     color: red;
 }
+ 
 
-.box:nth-child(2):hover .sost {
-   z-index: -2;
-} 
-
-.box:nth-child(3):hover .sost {
-   z-index: -2;
-} 
-
-.box:hover .sale-b {
-    z-index: 0;
-} 
-
-.box:nth-child(5):hover .sale {
-    z-index: -2;
-}
-
-.box:nth-child(5):hover .sost {
-    z-index: -2;
-}
-
-.box:nth-child(6):hover .sale {
-    display: none;
-}
 
 /* /HOVER */
 
